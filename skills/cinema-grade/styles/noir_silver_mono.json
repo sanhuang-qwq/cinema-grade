@@ -1,0 +1,47 @@
+{
+  "_status": "experimental",
+  "_description": "Silver-gelatin monochrome: saturation -100, tactile S-curve with a lifted matte black floor and gently capped whites, neutral untoned greys. HSL luminance acts as a yellow-orange contrast filter: darker blue skies, brighter skin. Experimental: not yet verified on a full shoot.",
+  "toneMapper": "agx",
+  "temperature": 0,
+  "tint": 0,
+  "vibrance": 0,
+  "saturation": -100,
+  "colorCalibration": {
+    "redHue": 0,
+    "redSaturation": 0,
+    "greenHue": 0,
+    "greenSaturation": 0,
+    "blueHue": 0,
+    "blueSaturation": 0,
+    "shadowsTint": 0
+  },
+  "hsl": {
+    "reds": {"hue": 0, "saturation": 0, "luminance": 6},
+    "oranges": {"hue": 0, "saturation": 0, "luminance": 10},
+    "yellows": {"hue": 0, "saturation": 0, "luminance": 6},
+    "greens": {"hue": 0, "saturation": 0, "luminance": -6},
+    "aquas": {"hue": 0, "saturation": 0, "luminance": -14},
+    "blues": {"hue": 0, "saturation": 0, "luminance": -22},
+    "purples": {"hue": 0, "saturation": 0, "luminance": -8},
+    "magentas": {"hue": 0, "saturation": 0, "luminance": 0}
+  },
+  "colorGrading": {
+    "shadows": {"hue": 0, "saturation": 0, "luminance": 0},
+    "midtones": {"hue": 0, "saturation": 0, "luminance": 0},
+    "highlights": {"hue": 0, "saturation": 0, "luminance": 0},
+    "global": {"hue": 0, "saturation": 0, "luminance": 0},
+    "balance": 0,
+    "blending": 50
+  },
+  "curveMode": "point",
+  "pointCurves": {
+    "luma": [{"x": 0, "y": 14}, {"x": 40, "y": 36}, {"x": 96, "y": 88}, {"x": 160, "y": 170}, {"x": 216, "y": 226}, {"x": 255, "y": 248}],
+    "red": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "green": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "blue": [{"x": 0, "y": 0}, {"x": 255, "y": 255}]
+  },
+  "sharpness": 20,
+  "grainAmount": 9,
+  "grainSize": 22,
+  "grainRoughness": 38
+}

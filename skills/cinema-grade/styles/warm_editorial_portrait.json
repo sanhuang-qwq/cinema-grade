@@ -1,0 +1,47 @@
+{
+  "_status": "experimental",
+  "_description": "Skin-tone-safe warm editorial film: clean luminous oranges and reds, gentle warm highlights, warm-neutral shadows with zero green cast, yellows and greens muted so skin stays the most saturated element. Experimental: not yet verified on a full shoot.",
+  "toneMapper": "agx",
+  "temperature": 6,
+  "tint": 4,
+  "vibrance": 10,
+  "saturation": -3,
+  "colorCalibration": {
+    "redHue": 6,
+    "redSaturation": -4,
+    "greenHue": 6,
+    "greenSaturation": -20,
+    "blueHue": -10,
+    "blueSaturation": 8,
+    "shadowsTint": 3
+  },
+  "hsl": {
+    "reds": {"hue": 4, "saturation": -6, "luminance": 6},
+    "oranges": {"hue": 2, "saturation": -4, "luminance": 12},
+    "yellows": {"hue": -10, "saturation": -18, "luminance": 6},
+    "greens": {"hue": 10, "saturation": -34, "luminance": -6},
+    "aquas": {"hue": 0, "saturation": -8, "luminance": 0},
+    "blues": {"hue": -8, "saturation": -6, "luminance": -6},
+    "purples": {"hue": -6, "saturation": -16, "luminance": 0},
+    "magentas": {"hue": 0, "saturation": -14, "luminance": 0}
+  },
+  "colorGrading": {
+    "shadows": {"hue": 20, "saturation": 5, "luminance": 0},
+    "midtones": {"hue": 30, "saturation": 8, "luminance": 3},
+    "highlights": {"hue": 44, "saturation": 10, "luminance": 2},
+    "global": {"hue": 0, "saturation": 0, "luminance": 0},
+    "balance": 8,
+    "blending": 65
+  },
+  "curveMode": "point",
+  "pointCurves": {
+    "luma": [{"x": 0, "y": 6}, {"x": 56, "y": 56}, {"x": 128, "y": 134}, {"x": 200, "y": 208}, {"x": 255, "y": 252}],
+    "red": [{"x": 0, "y": 0}, {"x": 128, "y": 131}, {"x": 255, "y": 255}],
+    "green": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "blue": [{"x": 0, "y": 2}, {"x": 128, "y": 127}, {"x": 255, "y": 249}]
+  },
+  "sharpness": 12,
+  "grainAmount": 6,
+  "grainSize": 16,
+  "grainRoughness": 26
+}

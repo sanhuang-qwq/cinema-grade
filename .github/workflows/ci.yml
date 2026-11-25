@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run smoke tests
+        run: sh skills/cinema-grade/scripts/smoke_test.sh
+      - name: Validate repository JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          names = subprocess.check_output(["git", "ls-files", "-z", "--", "*.json"])
+          for name in names.decode().split("\0"):
+              if name:
+                  with Path(name).open(encoding="utf-8") as stream:
+                      json.load(stream)
+                  print(f"Valid JSON: {name}")
+          PY

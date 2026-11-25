@@ -1,0 +1,47 @@
+{
+  "_status": "verified",
+  "_description": "Japanese-style warm cream: creamy warm highlights, cyan-blue skies, foliage greens pulled toward grey, soft lifted blacks. Verified on iPhone ProRAW desert and canyon landscapes.",
+  "toneMapper": "agx",
+  "temperature": 2,
+  "tint": 5,
+  "vibrance": 16,
+  "saturation": -5,
+  "colorCalibration": {
+    "redHue": 14,
+    "redSaturation": -10,
+    "greenHue": 6,
+    "greenSaturation": -22,
+    "blueHue": -36,
+    "blueSaturation": 24,
+    "shadowsTint": 3
+  },
+  "hsl": {
+    "reds": {"hue": 12, "saturation": -12, "luminance": 14},
+    "oranges": {"hue": 8, "saturation": -8, "luminance": 18},
+    "yellows": {"hue": -12, "saturation": -16, "luminance": 10},
+    "greens": {"hue": 12, "saturation": -36, "luminance": -8},
+    "aquas": {"hue": -10, "saturation": 26, "luminance": 4},
+    "blues": {"hue": -36, "saturation": 26, "luminance": -4},
+    "purples": {"hue": -10, "saturation": -22, "luminance": 0},
+    "magentas": {"hue": 0, "saturation": -18, "luminance": 0}
+  },
+  "colorGrading": {
+    "shadows": {"hue": 218, "saturation": 12, "luminance": 2},
+    "midtones": {"hue": 32, "saturation": 12, "luminance": 5},
+    "highlights": {"hue": 40, "saturation": 12, "luminance": 4},
+    "global": {"hue": 0, "saturation": 0, "luminance": 0},
+    "balance": 14,
+    "blending": 68
+  },
+  "curveMode": "point",
+  "pointCurves": {
+    "luma": [{"x": 0, "y": 8}, {"x": 64, "y": 66}, {"x": 172, "y": 182}, {"x": 255, "y": 253}],
+    "red": [{"x": 0, "y": 1}, {"x": 128, "y": 130}, {"x": 255, "y": 255}],
+    "green": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "blue": [{"x": 0, "y": 3}, {"x": 128, "y": 128}, {"x": 255, "y": 248}]
+  },
+  "sharpness": 18,
+  "grainAmount": 7,
+  "grainSize": 18,
+  "grainRoughness": 30
+}

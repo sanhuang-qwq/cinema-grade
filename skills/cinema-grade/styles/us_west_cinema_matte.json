@@ -1,0 +1,47 @@
+{
+  "_status": "verified",
+  "_description": "US West road-movie matte: dense colour, deep steel-cyan skies, rich terracotta red rock, velvet matte black floor. Verified on snow-dusted red rock and blue-hour sunsets.",
+  "toneMapper": "agx",
+  "temperature": 5,
+  "tint": 5,
+  "vibrance": 32,
+  "saturation": 7,
+  "colorCalibration": {
+    "redHue": 10,
+    "redSaturation": 12,
+    "greenHue": 10,
+    "greenSaturation": -36,
+    "blueHue": -22,
+    "blueSaturation": 26,
+    "shadowsTint": 3
+  },
+  "hsl": {
+    "reds": {"hue": 8, "saturation": 16, "luminance": -10},
+    "oranges": {"hue": 5, "saturation": 18, "luminance": -6},
+    "yellows": {"hue": -16, "saturation": -12, "luminance": -4},
+    "greens": {"hue": 18, "saturation": -56, "luminance": -16},
+    "aquas": {"hue": -8, "saturation": 20, "luminance": -6},
+    "blues": {"hue": -18, "saturation": 22, "luminance": -18},
+    "purples": {"hue": -10, "saturation": -22, "luminance": -4},
+    "magentas": {"hue": 0, "saturation": -20, "luminance": -2}
+  },
+  "colorGrading": {
+    "shadows": {"hue": 216, "saturation": 14, "luminance": -3},
+    "midtones": {"hue": 30, "saturation": 12, "luminance": 0},
+    "highlights": {"hue": 42, "saturation": 13, "luminance": 1},
+    "global": {"hue": 0, "saturation": 0, "luminance": 0},
+    "balance": -4,
+    "blending": 60
+  },
+  "curveMode": "point",
+  "pointCurves": {
+    "luma": [{"x": 0, "y": 15}, {"x": 46, "y": 42}, {"x": 128, "y": 123}, {"x": 200, "y": 206}, {"x": 255, "y": 243}],
+    "red": [{"x": 0, "y": 1}, {"x": 128, "y": 131}, {"x": 255, "y": 254}],
+    "green": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "blue": [{"x": 0, "y": 6}, {"x": 128, "y": 127}, {"x": 255, "y": 245}]
+  },
+  "sharpness": 22,
+  "grainAmount": 8,
+  "grainSize": 20,
+  "grainRoughness": 30
+}

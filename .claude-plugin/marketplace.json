@@ -1,0 +1,27 @@
+{
+  "name": "cinema-grade",
+  "owner": {
+    "name": "sanhuang-qwq",
+    "url": "https://github.com/sanhuang-qwq"
+  },
+  "metadata": {
+    "description": "Batch color grading and cinematic framing skill for macOS and RapidRAW.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "cinema-grade",
+      "source": "./",
+      "description": "Batch color grading and cinematic 2.35:1 framing for photo sets on macOS, driven headlessly through RapidRAW.",
+      "version": "1.0.0",
+      "author": {
+        "name": "sanhuang-qwq"
+      },
+      "homepage": "https://github.com/sanhuang-qwq/cinema-grade",
+      "repository": "https://github.com/sanhuang-qwq/cinema-grade",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["photography", "color-grading", "rapidraw", "macos"]
+    }
+  ]
+}

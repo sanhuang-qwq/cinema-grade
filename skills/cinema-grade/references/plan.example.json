@@ -1,0 +1,26 @@
+{
+  "name": "example-set",
+  "out_dir": "./out/example-set",
+  "style": "jp_warm_cream_cyan",
+  "export": {"quality": 95, "color_space": "display-p3", "keep_metadata": true, "write_sidecar": false},
+  "final": {"format": "png", "bit_depth": 16, "color_space": "display-p3", "keep_metadata": true},
+  "frame": {"mode": "auto", "aspect": 2.35, "canvas_aspect": "none", "max_long": 0, "quality": 0.96},
+  "variants": [
+    {"id": "A", "label": "Baseline", "delta": {}},
+    {"id": "B", "label": "Warmer", "delta": {"temperature": 6, "colorGrading": {"midtones": {"saturation": 15}}}},
+    {"id": "C", "label": "Clearer cyan", "delta": {"temperature": -2, "hsl": {"aquas": {"saturation": 32}, "blues": {"hue": -30}}}}
+  ],
+  "photos": [
+    {
+      "id": "0001",
+      "src": "./samples/IMG_0001.DNG",
+      "_note": "base = Phase 1 per-photo exposure normalization; crops = Phase 3 framing candidates. All values are placeholders: read the ruler image before setting real ones.",
+      "base": {"exposure": 1.48, "contrast": 18, "highlights": -65, "shadows": 28, "whites": -4, "blacks": 4, "clarity": 6, "dehaze": 8},
+      "crops": [
+        {"id": "r1", "label": "Wide, subject on thirds", "anchor_x": 0.50, "anchor_y": 0.50, "zoom": 1.0, "rotate": 0.0},
+        {"id": "r2", "label": "Tighter, left edge cleaned", "anchor_x": 0.56, "anchor_y": 0.48, "zoom": 1.18, "rotate": 1.2},
+        {"id": "r3", "label": "Low horizon, more sky", "anchor_x": 0.46, "anchor_y": 0.42, "zoom": 1.08, "rotate": 0.6}
+      ]
+    }
+  ]
+}

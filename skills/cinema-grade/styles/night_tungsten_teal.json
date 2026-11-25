@@ -1,0 +1,47 @@
+{
+  "_status": "experimental",
+  "_description": "Cinematic night street: warm amber tungsten highlights against deep teal-blue shadows (complementary split), neon greens bent toward teal and muted, highlights rolled off early by the curve for a restrained halation-like shoulder. Experimental: not yet verified on a full shoot.",
+  "toneMapper": "agx",
+  "temperature": -4,
+  "tint": 3,
+  "vibrance": 14,
+  "saturation": -4,
+  "colorCalibration": {
+    "redHue": 8,
+    "redSaturation": 8,
+    "greenHue": 12,
+    "greenSaturation": -28,
+    "blueHue": -18,
+    "blueSaturation": 18,
+    "shadowsTint": 2
+  },
+  "hsl": {
+    "reds": {"hue": 6, "saturation": 4, "luminance": 0},
+    "oranges": {"hue": -4, "saturation": 14, "luminance": 6},
+    "yellows": {"hue": -14, "saturation": -6, "luminance": 2},
+    "greens": {"hue": 20, "saturation": -50, "luminance": -12},
+    "aquas": {"hue": -4, "saturation": 14, "luminance": -6},
+    "blues": {"hue": -14, "saturation": 10, "luminance": -12},
+    "purples": {"hue": -8, "saturation": -18, "luminance": -4},
+    "magentas": {"hue": 0, "saturation": -10, "luminance": 0}
+  },
+  "colorGrading": {
+    "shadows": {"hue": 198, "saturation": 22, "luminance": -4},
+    "midtones": {"hue": 205, "saturation": 6, "luminance": 0},
+    "highlights": {"hue": 38, "saturation": 20, "luminance": 2},
+    "global": {"hue": 0, "saturation": 0, "luminance": 0},
+    "balance": -18,
+    "blending": 70
+  },
+  "curveMode": "point",
+  "pointCurves": {
+    "luma": [{"x": 0, "y": 10}, {"x": 48, "y": 40}, {"x": 128, "y": 126}, {"x": 204, "y": 212}, {"x": 255, "y": 240}],
+    "red": [{"x": 0, "y": 0}, {"x": 128, "y": 130}, {"x": 255, "y": 255}],
+    "green": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "blue": [{"x": 0, "y": 8}, {"x": 128, "y": 128}, {"x": 255, "y": 242}]
+  },
+  "sharpness": 14,
+  "grainAmount": 9,
+  "grainSize": 22,
+  "grainRoughness": 34
+}

@@ -1,0 +1,47 @@
+{
+  "_status": "experimental",
+  "_description": "Nordic overcast slate: cool architectural slate blues, foliage and yellows desaturated toward grey, crisp neutral highlights with no warm split. Low-saturation analogous cool palette for overcast cities, coastlines and concrete. Experimental: not yet verified on a full shoot.",
+  "toneMapper": "agx",
+  "temperature": -8,
+  "tint": 2,
+  "vibrance": -6,
+  "saturation": -14,
+  "colorCalibration": {
+    "redHue": 4,
+    "redSaturation": -8,
+    "greenHue": 8,
+    "greenSaturation": -30,
+    "blueHue": -8,
+    "blueSaturation": 10,
+    "shadowsTint": 1
+  },
+  "hsl": {
+    "reds": {"hue": 0, "saturation": -14, "luminance": 0},
+    "oranges": {"hue": 0, "saturation": -10, "luminance": 4},
+    "yellows": {"hue": -8, "saturation": -36, "luminance": 2},
+    "greens": {"hue": 10, "saturation": -46, "luminance": -10},
+    "aquas": {"hue": 8, "saturation": -10, "luminance": -4},
+    "blues": {"hue": 2, "saturation": -4, "luminance": -10},
+    "purples": {"hue": -6, "saturation": -24, "luminance": -4},
+    "magentas": {"hue": 0, "saturation": -26, "luminance": 0}
+  },
+  "colorGrading": {
+    "shadows": {"hue": 222, "saturation": 14, "luminance": -2},
+    "midtones": {"hue": 214, "saturation": 6, "luminance": 0},
+    "highlights": {"hue": 0, "saturation": 0, "luminance": 2},
+    "global": {"hue": 0, "saturation": 0, "luminance": 0},
+    "balance": -10,
+    "blending": 60
+  },
+  "curveMode": "point",
+  "pointCurves": {
+    "luma": [{"x": 0, "y": 6}, {"x": 60, "y": 54}, {"x": 128, "y": 128}, {"x": 196, "y": 204}, {"x": 255, "y": 252}],
+    "red": [{"x": 0, "y": 0}, {"x": 128, "y": 126}, {"x": 255, "y": 255}],
+    "green": [{"x": 0, "y": 0}, {"x": 255, "y": 255}],
+    "blue": [{"x": 0, "y": 3}, {"x": 128, "y": 129}, {"x": 255, "y": 255}]
+  },
+  "sharpness": 24,
+  "grainAmount": 6,
+  "grainSize": 16,
+  "grainRoughness": 28
+}
